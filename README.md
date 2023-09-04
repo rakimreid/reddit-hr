@@ -1,4 +1,4 @@
-# Human Resources and AskHR subreddit text analytics with Reddit PRAW API 
+# Human Resources subreddit text analytics with PRAW API 
 
 
 
@@ -17,6 +17,8 @@ what users found most important them in the workplace and human resource issues.
 
 <h2> Part I: Data <img src ="https://th.bing.com/th/id/OIP.j5Vj7VYXdSuB0Cho-HbMpgHaHa?pid=ImgDet&rs=1" height = 25, width = 25 />
 </h2>
+
+<a href = "https://praw.readthedocs.io/en/latest/">PRAW: The Python Reddit API Wrapper</a> was used to acquire the text from the two subreddits selected. 
 
 The dataset comes from the <a href="https://www.reddit.com/r/humanresources/">r/humanresources</a> and <a href = "https://www.reddit.com/r/AskHR/">AskHR</a> Reddit subreddits.
 The most recent 1000 post titles from each subreddit were taken to create the dataset for a total of 2000 rows. 
